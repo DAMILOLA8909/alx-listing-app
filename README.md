@@ -1,40 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# alx-listing-app
+
+# ALX Listing App
+
+## Project Description
+ALX Listing App is an Airbnb clone project focused on creating a property listing platform. This project demonstrates modern web development practices using Next.js, TypeScript, and Tailwind CSS.
+
+## Project Structure
+
+- `components/common/` - Reusable UI components (Card, Button, etc.)
+- `interfaces/` - TypeScript interfaces for type safety
+- `constants/` - Application constants and configuration
+- `public/assets/` - Static assets (images, icons, etc.)
+- `pages/` - Next.js pages and routing
+- `styles/` - Global CSS and styling
+
+```pgsql
+alx-listing-app/
+├── components/
+│   └── common/
+│       ├── Card.tsx
+│       └── Button.tsx
+├── interfaces/
+│   └── index.ts
+├── constants/
+│   └── index.ts
+├── pages/
+│   └── index.tsx
+├── public/
+│   └── assets/
+│       ├── property1.jpg
+│       └── logo.svg
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+├── postcss.config.mjs
+├── tsconfig.json
+├── package.json
+└── README.md
+```
+
+---
+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/DAMILOLA8909/alx-listing-app
+
+cd alx-listing-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4. Open http://localhost:3000 in your browser.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Features
 
-## Learn More
+- TypeScript for type safety
 
-To learn more about Next.js, take a look at the following resources:
+- Tailwind CSS for styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Responsive design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Reusable components
 
-## Deploy on Vercel
+- ESLint for code quality
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Next.js
+
+- TypeScript
+
+- Tailwind CSS
+
+- ESLint
+
+---
